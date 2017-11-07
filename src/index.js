@@ -9,6 +9,9 @@ import reducers from './reducers'
 import Login from './container/login/login'
 import Register from './container/register/register'
 import AuthRouter from './component/AuthRouter'
+import './config'
+import './index.css'
+
 
 const store = createStore(reducers, compose(
   applyMiddleware(thunk),
